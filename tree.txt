@@ -1,0 +1,28 @@
+/project
+    /css
+        style.css
+    /js
+        firebase-config.js
+        app.js
+    /php
+        config.php
+        user.php
+        project.php
+        invitation.php
+        auth.php
+        dashboard.php
+        utils.php
+    /views
+        create_project.html
+        list_projects.html
+        create_ticket.html
+        list_tickets.html
+        index.html
+        login.html
+        register.html
+        dashboard.php
+    /images
+        // Pour les images ou icônes si nécessaire
+    .gitignore
+    README.md
+    package.json

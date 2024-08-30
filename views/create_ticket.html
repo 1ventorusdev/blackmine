@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Ticket</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h2>Create a New Ticket</h2>
+    <form action="php/ticket.php" method="post">
+        <label for="ticket_title">Ticket Title:</label>
+        <input type="text" id="ticket_title" name="ticket_title" required>
+        <label for="ticket_description">Description:</label>
+        <textarea id="ticket_description" name="ticket_description" required></textarea>
+        <button type="submit" name="create_ticket">Create Ticket</button>
+    </form>
+    <a href="list_tickets.html">Back to Ticket List</a>
+</body>
+</html>
