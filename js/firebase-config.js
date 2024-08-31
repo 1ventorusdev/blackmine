@@ -5,6 +5,7 @@ import "firebase/firestore";
 const firebaseConfig = {
     apiKey: "AIzaSyDcHeOlnBTgTahXdh7bqZN4O3bWBlxoDpQ",
     authDomain: "redmine-13f46.firebaseapp.com",
+    databaseURL: "https://redmine-13f46.firebaseio.com",
     projectId: "redmine-13f46",
     storageBucket: "redmine-13f46.appspot.com",
     messagingSenderId: "447829552875",

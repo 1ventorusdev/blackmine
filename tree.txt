@@ -1,28 +1,39 @@
-/project
-    /css
-        style.css
-    /js
-        firebase-config.js
-        app.js
-    /php
-        config.php
-        user.php
-        project.php
-        invitation.php
-        auth.php
-        dashboard.php
-        utils.php
-    /views
-        create_project.html
-        list_projects.html
-        create_ticket.html
-        list_tickets.html
-        index.html
-        login.html
-        register.html
-        dashboard.php
-    /images
-        // Pour les images ou icônes si nécessaire
-    .gitignore
-    README.md
-    package.json
+/Blackmine
+├── css/
+│   └── style.css                     # Feuille de style principale pour l'application
+├── js/
+│   ├── firebase-config.js            # Configuration Firebase pour le projet (si utilisé)
+│   └── app.js                        # Scripts JavaScript principaux pour l'application
+├── php/
+│   ├── config.php                    # Configuration de la base de données et autres paramètres globaux
+│   ├── user.php                      # Gestion des utilisateurs (création, authentification, etc.)
+│   ├── project.php                   # Gestion des projets
+│   ├── invitation.php                # Gestion des invitations de projet
+│   ├── auth.php                      # Logique d'authentification des utilisateurs
+│   ├── dashboard.php                 # Logique pour le tableau de bord de l'utilisateur
+│   └── utils.php                     # Fonctions PHP utilitaires (par exemple, vérification de connexion)
+├── views/
+│   ├── create_project.html           # Page pour créer un projet
+│   ├── list_projects.html            # Page pour lister les projets
+│   ├── create_ticket.html            # Page pour créer un ticket (ou tâche)
+│   ├── list_tickets.html             # Page pour lister les tickets
+│   ├── index.html                    # Page d'accueil (doit gérer les options de connexion et de bienvenue)
+│   ├── login.html                    # Page de connexion des utilisateurs
+│   ├── register.html                 # Page d'inscription des utilisateurs
+│   ├── dashboard.php                 # Tableau de bord de l'utilisateur connecté
+│   └── error.php                     # Page d'erreur polyvalente (utilisée pour 404 et autres erreurs)
+├── images/                           # Répertoire pour les images ou icônes du site
+│   └── logo.png                      # Exemple d'image, ajouter d'autres images nécessaires
+├── docker/
+│   ├── Dockerfile                    # Fichier de configuration Docker pour déployer l'application sur Render
+│   └── apache-config.conf            # Configuration personnalisée pour Apache à l'intérieur du conteneur Docker
+├── vendor/                           # Dépendances installées via Composer (si nécessaires)
+│   └── autoload.php                  # Généré par Composer pour le chargement automatique
+├── .env                              # Fichier de configuration d'environnement (non inclus dans Git)
+├── .htaccess                         # Fichier de configuration Apache (pour réécriture d'URL et sécurité)
+├── .gitignore                        # Fichier pour ignorer certains fichiers dans Git
+├── composer.json                     # Fichier de configuration Composer pour les dépendances PHP
+├── package.json                      # Fichier de configuration pour les dépendances JavaScript (si nécessaire)
+├── blackmine.conf                    # equivalent du fichier 000-default.conf dasn apache
+├── tree.txt                          # contient le tree, n'est pas utile, il me permet juste de savoir si il y a des fichier manquant quand je code donc il n'est pas a prendre en compte
+└── README.rst                        # Fichier d'information et de documentation sur le projet

@@ -1,0 +1,107 @@
+{
+    "project": {
+        "name": "Blackmine",
+        "description": "Blackmine est un outil de gestion de projets permettant de gérer des projets et des tickets associés. Il inclut des dashboards pour les utilisateurs, les projets, et les administrateurs.",
+        "type": "web",
+        "version": "1.0.0",
+        "firebaseConfig": {
+            "apiKey": "AIzaSyDcHeOlnBTgTahXdh7bqZN4O3bWBlxoDpQ",
+            "authDomain": "redmine-13f46.firebaseapp.com",
+            "databaseURL": "https://redmine-13f46.firebaseio.com",
+            "projectId": "redmine-13f46",
+            "storageBucket": "redmine-13f46.appspot.com",
+            "messagingSenderId": "447829552875",
+            "appId": "1:447829552875:web:94923357e6f69f2e2d18ae"
+        },
+        "dependencies": {
+            "libraries": [
+                "firebase",
+                "chart.js"
+            ],
+            "tools": [
+                "Firebase Console",
+                "Visual Studio Code"
+            ]
+        },
+        "developer": {
+            "name": "1ventorus",
+            "email": "1ventorus.dev@gmail.com",
+            "github": "1ventorusdev",
+            "age": 16,
+            "education": "En cours pour le diplôme STI2D",
+            "yearsOfExperience": 1,
+            "knownLanguages": [
+                "python"
+            ],
+            "familiarLanguages": [
+                "html",
+                "css",
+                "js",
+                "php",
+                "bash",
+                "batch"
+            ],
+            "lessFamiliarLanguages": [
+                "c",
+                "cpp",
+                "node.js"
+            ],
+            "hardware": [
+                "PC portable très faible sous Windows avec un accès complet",
+                "PC fixe puissant sous Windows avec un simple accès utilisateur",
+                "Ubuntu (installé en dual-boot avec Windows sur le PC fixe) avec accès complet",
+                "Clé bootable Ubuntu Server avec un accès complet"
+            ]
+        },
+        "projectTree": {
+            "/": [
+                ".env",
+                ".htaccess",
+                ".gitignore",
+                "composer.json",
+                "package.json", 
+                "blackemine.json",
+                "tree.txt",
+                "README.rst"
+            ],
+            "html": [
+                "index.html",
+                "login.html",
+                "register.html",
+                "user_dashboard.html",
+                "project_dashboard.html",
+                "admin_dashboard.html",
+                "create_ticket.html",
+                "create_project.html",
+                "list_project.html",
+                "list_ticket.html"
+            ],
+            "css": [
+                "style.css"
+            ],
+            "js": [
+                "app.js",
+                "firebase-config.js"
+            ],
+            "php": [
+                "prject.php",
+                "invite.php", 
+                "config.php", 
+                "auth.php",
+                "dashboard.php",
+                "utils.php",
+                "user.php"
+            ],
+            "vendor": [
+                "autoload.php"
+            ],
+            "docker": [
+                "Dockerfile",
+                "apache-config.conf"
+            ],
+            "images": [
+                
+            ]
+        }
+    }
+}

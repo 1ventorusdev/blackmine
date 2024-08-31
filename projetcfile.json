@@ -1,0 +1,52 @@
+{
+    "project": {
+        "name": "Nom du Projet",
+        "description": "Description du projet.",
+        "type": "web/app/os/sous_os/langage/other",
+        "version": "X.X.X",
+        "databaseconfiguration": {
+            "name": "name"
+        },
+        "dependencies": {
+            "libraries": [
+                "Liste des bibliothèques"
+            ],
+            "tools": [
+                "Liste des outils"
+            ]
+        },
+        "developer": {
+            "name": "Nom du Développeur",
+            "email": "Email du Développeur",
+            "github": "Github du Développeur",
+            "age": "Âge du Développeur",
+            "education": "Formation du Développeur",
+            "yearsOfExperience": "Nombre d'années d'expérience",
+            "knownLanguages": [
+                "Langages connus"
+            ],
+            "familiarLanguages": [
+                "Langages familiers"
+            ],
+            "lessFamiliarLanguages": [
+                "Langages moins familiers"
+            ],
+            "hardware": [
+                "Matériel disponible"
+            ]
+        },
+        "projectTree": {
+            "/": [
+                "Fichiers a la racine du projet"
+            ],
+            "foldername1": [
+                "file"
+            ],
+            "foldername2": {
+                "folder": [
+                    "file"
+                ]
+            }
+        }
+    }
+}
