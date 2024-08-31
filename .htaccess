@@ -1,0 +1,7 @@
+# .htaccess - Fichier de configuration Apache pour réécriture d'URL et sécurité
+
+Options -Indexes
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /views/error.php?error=404 [L]

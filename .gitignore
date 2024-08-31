@@ -1,0 +1,7 @@
+# .gitignore - Fichier pour ignorer certains fichiers dans Git
+
+/vendor/
+.env
+/node_modules/
+*.log
+*.tmp
